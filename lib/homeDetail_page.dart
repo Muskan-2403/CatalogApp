@@ -17,7 +17,7 @@ class HomeDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.transparent,
       ),
       backgroundColor: MyTheme.creamColor,
       bottomNavigationBar: Container(
@@ -37,8 +37,8 @@ class HomeDetailPage extends StatelessWidget {
                   shape: MaterialStateProperty.all(
                     const StadiumBorder(),
                   )),
-              child: "Buy".text.make(),
-            ).wh(100, 50)
+              child: "Add to Cart".text.make(),
+            ).wh(120, 50)
           ],
         ).p32(),
       ),
@@ -46,6 +46,7 @@ class HomeDetailPage extends StatelessWidget {
         bottom: false,
         child: Column(
           children: [
+            // tells that image has a relationship and will show aniation accordingly
             Hero(
               tag: Key(catalog.id.toString()),
               child: Image.network(catalog.image),
@@ -66,6 +67,12 @@ class HomeDetailPage extends StatelessWidget {
                         .make(),
                     catalog.desc.text.textStyle(context.captionStyle).xl.make(),
                     10.heightBox,
+                    "Nonumy ipsum no duo eirmod sea ipsum sea gubergren, accusam erat voluptua stet tempor magna at, stet accusam lorem diam erat invidunt eos labore no dolores, et voluptua vero justo eirmod elitr sea amet, dolores magna et sea et erat diam amet, no et tempor no est labore sea, magna."
+                        .text
+                        .textStyle(context.captionStyle)
+                        .xl
+                        .make()
+                        .p16()
                   ],
                 ).py64(),
               ),
