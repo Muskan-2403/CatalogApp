@@ -14,3 +14,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+wrapping = ctrl + .
+suggestions = ctrl + space
+documentation of function = ctrl + mouse left click the function
+Not private var: var name;  
+Private var: var _name;
+Red dot: waha jaakr program ruk jaega(debugger kehte h red dot ko);
+ctrl + click a function = goes to that function class;
