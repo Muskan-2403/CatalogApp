@@ -22,7 +22,9 @@ class MyTheme {
       accentColor: Colors.white,
       fontFamily: GoogleFonts.poppins().fontFamily,
       appBarTheme: const AppBarTheme(
-          color: Colors.black, iconTheme: IconThemeData(color: Colors.white)));
+        color: Colors.black,
+        iconTheme: IconThemeData(color: Colors.white),
+      ));
 
   //Colors
   static Color creamColor = const Color(0xfff5f5f5);
