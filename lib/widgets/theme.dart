@@ -23,7 +23,7 @@ class MyTheme {
       fontFamily: GoogleFonts.poppins().fontFamily,
       appBarTheme: const AppBarTheme(
         color: Colors.black,
-        iconTheme: IconThemeData(color: Colors.white),
+        iconTheme: IconThemeData(color: Colors.yellow),
       ));
 
   //Colors

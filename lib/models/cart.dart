@@ -2,7 +2,7 @@ import 'package:my_first_app/models/catalog.dart';
 
 class CartModel {
   //catalog feild
-  CatalogueModel _catalog;
+  late CatalogueModel _catalog;
 
   //collection of ids + store ids of each item
   final List<int> _itemIds = [];
