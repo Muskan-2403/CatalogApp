@@ -1,6 +1,12 @@
 # Catalog App
 
-A new Flutter project.
+App Catalog is an interactive digital catalog that allows you to show all your company's products in a simple, visual and intuitive way.
+
+With App Catalog your users will be able to:
+- View your products in high quality
+- Know all their features and technical specifications
+- Add/ remove them from cart.
+- Share them on WhatsApp, email and social networks
 
 ## Getting Started
 
